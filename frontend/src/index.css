@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+.inputs{
+    @apply w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm;
+}
+.divp{
+    @apply relative flex-grow w-full;
+}
+.btn{
+    @apply inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white;
+}
+.ths{
+    @apply whitespace-nowrap px-4 py-2 font-medium text-gray-900 font-bold;
+}
+.tds{
+    @apply whitespace-nowrap px-4 py-2 font-medium text-gray-900 font-mono;
+}
+
+@tailwind utilities;
